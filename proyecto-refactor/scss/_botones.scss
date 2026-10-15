@@ -1,0 +1,41 @@
+button {
+  background-color: $color-primario;
+  color: $color-blanco;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-family: $fuente-titulos;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-secundario;
+    color: $color-oscuro;
+  }
+}
+
+form {
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid $color-borde;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1em;
+
+    &:focus {
+      outline: 2px solid $color-primario;
+      border-color: $color-primario;
+    }
+  }
+}

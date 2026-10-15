@@ -1,0 +1,16 @@
+footer {
+  background-color: $color-oscuro;
+  color: $color-footer-texto;
+  @include franja;
+  text-align: center;
+  margin-top: 20px;
+
+  p {
+    margin: 0;
+  }
+
+  .copy-peq {
+    margin: 5px 0 0 0;
+    font-size: 0.9em;
+  }
+}
